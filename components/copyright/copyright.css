@@ -1,0 +1,34 @@
+.copyright {
+  height: 80px;
+  width: 100%;
+  background-color: #EF6400;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .copyright {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}

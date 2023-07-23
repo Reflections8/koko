@@ -1,0 +1,35 @@
+.framedTitle {
+  padding: 6px 20px;
+  color: #F43E40;
+  text-shadow: -2px 0px 0px rgba(255, 255, 255, 0.25);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  border: 2px solid #FDBF47;
+  border-radius: 10px 60px 60px 50px;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .framedTitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}

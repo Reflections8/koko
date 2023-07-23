@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+
+		<!-- Encoding -->
+		<meta charset="UTF-8">
+
+		<!-- Language -->
+		<meta http-equiv="content-language" content="en"/>
+
+		<!-- Author -->
+		<meta name="author" content="Ruslan Feduleyev">
+
+		<!-- Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Title/Description -->
+		<title>Koko</title>
+		<meta name="description" content="Meta description"/>
+
+		<!-- AOS CDN -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;500;600;700;800&display=swap"
+					rel="stylesheet">
+
+		<!-- normalize.css -->
+		<link rel="stylesheet" href="assets/css/normalize.css">
+
+		<!-- Global CSS file -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- components/header -->
+<header class="header header--Scrolled">
+		<div class="container">
+				<div class="header__inner">
+
+						<!-- logo -->
+						<img src="components/header/img/logo.svg"
+								 alt="logo"
+								 class="header__inner-logo">
+
+						<!-- nav -->
+						<nav class="header__inner-nav">
+								<a href="#about"
+									 class="header__inner-nav-item">
+										About
+								</a>
+
+								<a href="#tokenomics"
+									 class="header__inner-nav-item">
+										Tokenomics
+								</a>
+
+								<a href="#how"
+									 class="header__inner-nav-item">
+										How to Buy
+								</a>
+
+								<a href="#roadmap"
+									 class="header__inner-nav-item">
+										Roadmap
+								</a>
+						</nav>
+
+						<div class="header__inner-soundWrapper">
+								<img src="components/intro/img/sound.svg"
+										 alt="sound"
+										 class="header__inner-soundWrapper-icon header__inner-soundWrapper-soundIcon hidden">
+
+								<img src="components/intro/img/nosound.svg"
+										 alt="sound"
+										 class="header__inner-soundWrapper-icon header__inner-soundWrapper-noSoundIcon ">
+						</div>
+
+						<div class="header__inner-nav-buttonWrapper">
+
+								<!-- > 850px Button-->
+								<!-- ui/button -->
+								<a href="#" class="button header__inner-button">
+										<img src="ui/button/img/arrow-right.svg"
+												 alt="arrow-right"
+												 class="button__icon">
+										<span class="button__text">
+										BUY NOW
+								</span>
+								</a>
+
+
+								<!-- <= 850px Burger icon -->
+								<div class="header__inner-nav-buttonWrapper-burgerIcon">
+										<span class="header__inner-nav-buttonWrapper-burgerIcon-span"></span>
+										<span class="header__inner-nav-buttonWrapper-burgerIcon-span"></span>
+										<span class="header__inner-nav-buttonWrapper-burgerIcon-span"></span>
+								</div>
+						</div>
+
+				</div>
+		</div>
+
+		<!-- Burger menu -->
+		<div class="header__burgerMenu header__burgerMenu--Hidden">
+				<div class="container">
+						<div class="header__burgerMenu-inner">
+								<nav class="header__burgerMenu-inner-nav">
+										<a href="#about"
+											 class="header__burgerMenu-inner-nav-item">
+												About
+										</a>
+
+										<a href="#tokenomics"
+											 class="header__burgerMenu-inner-nav-item">
+												Tokenomics
+										</a>
+
+										<a href="#how"
+											 class="header__burgerMenu-inner-nav-item">
+												How to Buy
+										</a>
+
+										<a href="#roadmap"
+											 class="header__burgerMenu-inner-nav-item">
+												Roadmap
+										</a>
+								</nav>
+
+								<a href="#" class="button header__burgerMenu-inner-button">
+										<img src="ui/button/img/arrow-right.svg"
+												 alt="arrow-right"
+												 class="button__icon">
+										<span class="button__text">
+										BUY NOW
+								</span>
+								</a>
+						</div>
+				</div>
+		</div>
+</header>
+
+<main>
+
+		<!-- components/intro -->
+		<section class="intro">
+
+				<!-- colored box -->
+				<div class="container__outer intro__containerOuter">
+						<div class="intro__coloredBox">
+								<div class="intro__coloredBox-content">
+
+										<h1 class="intro__coloredBox-content-title"
+												data-aos="fade-up"
+												data-aos-delay="0"
+												data-aos-duration="700">
+												<span class="coloredText">KoKo</span> - is the<br>
+												hen that lays<br>
+												<span class="boldText">the golden eggs!</span>
+										</h1>
+
+										<div class="intro__coloredBox-content-text"
+												 data-aos="fade-up"
+												 data-aos-delay="100"
+												 data-aos-duration="700">
+												Everyone looks at cute dogs, hamsters, frogs and sadly regrets that they did not have time to
+												“take” them for themselves. More recently, they were the kings of meme tokens, but alas, their
+												time has passed. It's time for KoKo!
+										</div>
+
+										<div class="intro__coloredBox-content-social"
+												 data-aos="fade-up"
+												 data-aos-delay="200"
+												 data-aos-duration="700">
+
+												<a Target = "_blank" href="https://twitter.com/KoKo_Token" class="intro__coloredBox-content-social-link">
+														<img src="components/intro/img/social/1.svg"
+																 alt="twitter"
+																 class="intro__coloredBox-content-social-link-img">
+												</a>
+
+												<a Target = "_blank" href="#" class="intro__coloredBox-content-social-link">
+														<img src="components/intro/img/social/2.svg"
+																 alt="discord"
+																 class="intro__coloredBox-content-social-link-img">
+												</a>
+
+												<a Target = "_blank" href="https://t.me/koko_token" class="intro__coloredBox-content-social-link">
+														<img src="components/intro/img/social/3.svg"
+																 alt="telegram"
+																 class="intro__coloredBox-content-social-link-img">
+												</a>
+
+												<a Target = "_blank" href="https://etherscan.io/token/0x7D7e07FA445c70B73e8025aFD15D87C4F2EA44E2" class="intro__coloredBox-content-social-link">
+														<img src="components/intro/img/social/4.svg"
+																 alt="etherscan"
+																 class="intro__coloredBox-content-social-link-img">
+												</a>
+
+												<a Target = "_blank" href="https://www.dextools.io/app/en/ether/pair-explorer/0xe5c1f25e3eca8b4174b65a0e36b39e519d3f2aef" class="intro__coloredBox-content-social-link">
+														<img src="components/intro/img/social/5.svg"
+																 alt="dextools"
+																 class="intro__coloredBox-content-social-link-img">
+												</a>
+
+												<a Target = "_blank" href="#" class="intro__coloredBox-content-social-link">
+														<img src="components/intro/img/social/6.svg"
+																 alt="coinmarketcup"
+																 class="intro__coloredBox-content-social-link-img">
+												</a>
+
+										</div>
+
+										<div class="intro__coloredBox-content-check"
+												 data-aos="fade-up"
+												 data-aos-delay="300"
+												 data-aos-duration="700">
+
+												<div class="intro__coloredBox-content-check-text">
+														Pool liquidity locked at 100%
+												</div>
+
+												<!-- ui/button -->
+												<a href="#" class="button button--Red intro__coloredBox-content-check-button">
+														<img src="ui/button/img/arrow-right.svg"
+																 alt="arrow-right"
+																 class="button__icon">
+														<span class="button__text">
+															Check
+														</span>
+												</a>
+
+										</div>
+								</div>
+
+								<div class="intro__coloredBox-imgWrapper">
+										<img src="components/intro/img/koko.svg"
+												 alt="koko"
+												 class="intro__coloredBox-imgWrapper-img">
+								</div>
+
+								<!-- waves -->
+								<img src="components/intro/img/coloredBox__waves.svg"
+										 alt="waves"
+										 class="intro__coloredBox-waves">
+
+								<!-- ui/absoluteSquare -->
+								<div class="AS AS--SM AS--ORANGE intro__coloredBox--AS1"></div>
+
+								<!-- ui/absoluteSquare -->
+								<div class="AS AS--SM AS--RED intro__coloredBox--AS2"></div>
+
+								<!-- ui/absoluteSquare -->
+								<div class="AS AS--SM AS--ORANGE intro__coloredBox--AS3"></div>
+
+								<!-- ui/absoluteSquare -->
+								<div class="AS AS--XS AS--WHITE intro__coloredBox--AS4"></div>
+
+								<!-- ui/absoluteSquare -->
+								<div class="AS AS--XS AS--WHITE intro__coloredBox--AS5"></div>
+
+								<!-- ui/absoluteSquare -->
+								<div class="AS AS--MD AS--RED intro__coloredBox--AS6"></div>
+
+								<!-- ui/absoluteSquare -->
+								<div class="AS AS--SM AS--RED intro__coloredBox--AS7"></div>
+						</div>
+
+						<!-- red waves -->
+						<img src="components/intro/img/redWaves.svg"
+								 alt="redWaves"
+								 class="intro__containerOuter-waves">
+
+						<img src="components/intro/img/side-bg.svg"
+								 alt="sidebg"
+								 class="intro__coloredBox-sideBg"
+						>
+				</div>
+
+				<!-- partners -->
+				<div class="container">
+						<div class="intro__partners"
+								 data-aos="fade-left"
+								 data-aos-delay="400"
+								 data-aos-duration="700">
+
+								<a href="#" class="intro__partners-itemWrapper">
+										<img src="components/intro/img/partners/Uniswap_Logo.svg"
+												 alt="uniswap"
+												 class="intro__partners-item">
+										<img src="components/intro/img/partners/hover/Uniswap_Logo.svg"
+												 alt="binance"
+												 class="intro__partners-item intro__partners-item--Hover">
+								</a>
+
+								<a href="#" class="intro__partners-itemWrapper">
+										<img src="components/intro/img/partners/Binance_logo.svg"
+												 alt="binance"
+												 class="intro__partners-item">
+										<img src="components/intro/img/partners/hover/Binance_logo.svg"
+												 alt="binance"
+												 class="intro__partners-item intro__partners-item--Hover">
+								</a>
+
+								<a href="#" class="intro__partners-itemWrapper">
+										<img src="components/intro/img/partners/kucoin_logo.svg"
+												 alt="kucoin"
+												 class="intro__partners-item">
+										<img src="components/intro/img/partners/hover/kucoin_logo.svg"
+												 alt="binance"
+												 class="intro__partners-item intro__partners-item--Hover">
+								</a>
+
+								<a href="#" class="intro__partners-itemWrapper">
+										<img src="components/intro/img/partners/mexc_logo%201.svg"
+												 alt="mexc"
+												 class="intro__partners-item">
+										<img src="components/intro/img/partners/hover/mexc_logo%201.svg"
+												 alt="binance"
+												 class="intro__partners-item intro__partners-item--Hover">
+								</a>
+						</div>
+				</div>
+
+				<!-- video -->
+				<div class="container intro__videoWrapper-Container">
+						<div class="intro__videoWrapper">
+								<video class="intro__videoWrapper-video"
+											 autoplay
+											 muted
+											 loop>
+										<source src="components/intro/video/video.mp4"
+														type="video/mp4">
+								</video>
+
+
+								<div class="intro__videoWrapper-sideImgWrapper">
+										<img src="components/intro/video/side.svg"
+												 alt="side"
+												 class="intro__videoWrapper-sideImgWrapper-img">
+
+										<img src="components/intro/video/side-coins.svg"
+												 alt="coins"
+												 class="intro__videoWrapper-sideImgWrapper-coins">
+								</div>
+
+						</div>
+				</div>
+		</section>
+
+		<!-- components/about-us -->
+		<section id="about" class="about-us">
+				<div class="container">
+
+						<div class="about-us__main">
+								<div class="about-us__main-imgWrapper">
+										<img src="components/about-us/img/koko.svg"
+												 alt="koko"
+												 class="about-us__main-imgWrapper-img">
+								</div>
+
+								<div class="about-us__main-content">
+
+										<!-- ui/framedTitle -->
+										<h2 class="framedTitle about-us__main-content-title"
+												data-aos="fade-up"
+												data-aos-delay="0"
+												data-aos-duration="700"
+												data-aos-offset="400">
+												About Us
+										</h2>
+
+										<div class="about-us__main-content-subtitle"
+												 data-aos="fade-up"
+												 data-aos-delay="100"
+												 data-aos-duration="700"
+												 data-aos-offset="400">
+												It's Time To "take" a chicken that will lay <span class="boldText">golden eggs for you!</span>
+										</div>
+
+										<div class="about-us__main-content-text"
+												 data-aos="fade-up"
+												 data-aos-delay="200"
+												 data-aos-duration="700"
+												 data-aos-offset="400">
+												Sing songs with KoKo and then the golden eggs will definitely be in your hands. KoKo is here to
+												bring back the popularity of memecoins, KoKo is here to give people a new chance to earn. No
+												pre-sales, low commissions, no complex applications, everything is clear and simple for everyone.
+										</div>
+
+										<div class="about-us__main-content-btnWrapper"
+												 data-aos="fade-up"
+												 data-aos-delay="300"
+												 data-aos-duration="700"
+												 data-aos-offset="400">
+
+												<!-- ui/button -->
+												<a href="#" class="button button--Red about-us__main-content-btnWrapper-item">
+														<img src="ui/button/img/arrow-right.svg"
+																 alt="arrow-right"
+																 class="button__icon">
+														<span class="button__text">
+															BUY NOW
+														</span>
+												</a>
+
+												<!-- ui/button -->
+												<a href="#" class="button button--Neutral about-us__main-content-btnWrapper-item">
+														<img src="ui/button/img/fox.svg"
+																 alt="fox"
+																 class="button__icon">
+														<span class="button__text">
+															ADD KoKo TO METAMASK
+														</span>
+												</a>
+
+										</div>
+								</div>
+						</div>
+
+						<div class="about-us__benefits">
+
+								<!-- item -->
+								<div class="about-us__benefits-item"
+										 data-aos="fade-up"
+										 data-aos-delay="0"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										<img src="components/about-us/img/benefits/icon.svg"
+												 alt="img"
+												 class="about-us__benefits-item-img">
+										<div class="about-us__benefits-item-title">
+												Simplicity
+										</div>
+										<div class="about-us__benefits-item-text">
+												Buy and earn. <br>It's simple!
+										</div>
+								</div>
+
+								<!-- item -->
+								<div class="about-us__benefits-item"
+										 data-aos="fade-up"
+										 data-aos-delay="100"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										<img src="components/about-us/img/benefits/icon-1.svg"
+												 alt="img"
+												 class="about-us__benefits-item-img">
+										<div class="about-us__benefits-item-title">
+												Blocked pool
+										</div>
+										<div class="about-us__benefits-item-text">
+												100% Of the LP is locked!
+										</div>
+								</div>
+
+								<!-- item -->
+								<div class="about-us__benefits-item"
+										 data-aos="fade-up"
+										 data-aos-delay="200"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										<img src="components/about-us/img/benefits/icon-2.svg"
+												 alt="img"
+												 class="about-us__benefits-item-img">
+										<div class="about-us__benefits-item-title">
+												100%
+										</div>
+										<div class="about-us__benefits-item-text">
+												All KoKo will be in the pools!
+										</div>
+								</div>
+
+								<!-- item -->
+								<div class="about-us__benefits-item"
+										 data-aos="fade-up"
+										 data-aos-delay="300"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										<img src="components/about-us/img/benefits/icon-3.svg"
+												 alt="img"
+												 class="about-us__benefits-item-img">
+										<div class="about-us__benefits-item-title">
+												Huge Marketing
+										</div>
+										<div class="about-us__benefits-item-text">
+												Contribution to marketing wallet
+										</div>
+								</div>
+
+								<!-- item -->
+								<div class="about-us__benefits-item"
+										 data-aos="fade-up"
+										 data-aos-delay="400"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										<img src="components/about-us/img/benefits/icon-4.svg"
+												 alt="img"
+												 class="about-us__benefits-item-img">
+										<div class="about-us__benefits-item-title">
+												Low Fees
+										</div>
+										<div class="about-us__benefits-item-text">
+												Transaction fee 0.5%!
+										</div>
+								</div>
+						</div>
+				</div>
+		</section>
+
+		<!-- components/tokenomics -->
+		<section id="tokenomics" class="tokenomics">
+				<div class="container tokenomics__container">
+
+						<div class="tokenomics__header">
+								<!-- ui/framedTitle -->
+								<h2 class="framedTitle tokenomics__header-title"
+										data-aos="fade-up"
+										data-aos-delay="0"
+										data-aos-duration="700"
+										data-aos-offset="400">
+										Tokenomics
+								</h2>
+
+								<div class="tokenomics__header-subtitle"
+										 data-aos="fade-up"
+										 data-aos-delay="100"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										Token Supply: <span class="boldText">500,000,000,000,000 KoKo</span>
+								</div>
+
+								<div class="tokenomics__header-text"
+										 data-aos="fade-up"
+										 data-aos-delay="200"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										90% of the tokens were sent to the liquidity pool, LP is locked forever. 
+										The remaining 10% of the supply is kept in a multisig wallet for use only as
+										tokens for future centralized exchanges and liquidity pools.
+
+								</div>
+						</div>
+
+						<div class="tokenomics__images">
+								<div class="tokenomics__images__circle"
+										 data-aos="fade-right"
+										 data-aos-delay="0"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										<img src="components/tocenomics/img/circle.svg"
+												 alt="circle"
+												 class="tokenomics__images__circle-img">
+
+										<img src="components/tocenomics/img/sidebg-2.svg"
+												 alt="sidebg"
+												 class="tokenomics__images__circle-sidebg">
+
+										<div class="tokenomics__images__circle-text">
+												<div class="tokenomics__images__circle-text-block">
+														<div class="tokenomics__images__circle-text-block-title">
+																CEX Listings
+														</div>
+														<div class="tokenomics__images__circle-text-block-value">
+																10%
+														</div>
+												</div>
+
+												<div class="tokenomics__images__circle-text-block">
+														<div class="tokenomics__images__circle-text-block-title">
+																DEX Listings
+														</div>
+														<div class="tokenomics__images__circle-text-block-value">
+																90%
+														</div>
+												</div>
+										</div>
+								</div>
+
+								<div class="tokenomics__images__koko"
+										 data-aos="fade-left"
+										 data-aos-delay="200"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										<img src="components/tocenomics/img/koko.svg"
+												 alt="koko"
+												 class="tokenomics__images__koko-img">
+								</div>
+						</div>
+
+						<div class="tokenomics__simple">
+								<div class="tokenomics__simple-title"
+										 data-aos="fade-up"
+										 data-aos-delay="0"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+										Looks like KoKo has started a new "Gold Rush"
+								</div>
+
+								<div class="tokenomics__simple-contentRow"
+										 data-aos="fade-up"
+										 data-aos-delay="100"
+										 data-aos-duration="700"
+										 data-aos-offset="400">
+
+										<!-- Item -->
+										<div class="tokenomics__simple-contentRow-item">
+												<span class="tokenomics__simple-contentRow-item-key">
+														Token Network:
+												</span>
+												<span class="tokenomics__simple-contentRow-item-value">
+														ERC20
+												</span>
+										</div>
+
+										<!-- Item -->
+										<div class="tokenomics__simple-contentRow-item">
+												<span class="tokenomics__simple-contentRow-item-key">
+														Contract Address:
+												</span>
+												<span class="tokenomics__simple-contentRow-item-value">
+														0x7D7e07FA445c70B73e8025aFD15D87C4F2EA44E2
+												</span>
+										</div>
+
+										<!-- Item -->
+										<div class="tokenomics__simple-contentRow-item">
+												<span class="tokenomics__simple-contentRow-item-key">
+														Circ. Supply:
+												</span>
+												<span class="tokenomics__simple-contentRow-item-value">
+														100%
+												</span>
+										</div>
+								</div>
+
+								<!-- ui/button -->
+								<a href="#" class="button button--Red tokenomics__simple-button"
+												data-aos="fade-up"
+												data-aos-delay="200"
+												data-aos-duration="700"
+												data-aos-offset="400">
+										<img src="ui/button/img/arrow-right.svg"
+												 alt="arrow-right"
+												 class="button__icon">
+										<span class="button__text">
+										BUY KoKo TOKEN NOW
+								</span>
+								</a>
+						</div>
+
+						<!-- waves -->
+						<img src="components/tocenomics/img/waves.svg"
+								 alt="waves"
+								 class="tokenomics__container-waves">
+
+						<!-- coin -->
+						<img src="components/tocenomics/img/coin.svg"
+								 alt="coin"
+								 class="tokenomics__container-coin">
+				</div>
+		</section>
+
+		<!-- components/how -->
+		<section id="how" class="how">
+				<div class="how__coloredBox">
+
+						<!-- waves -->
+						<img src="components/how/img/waves.svg"
+								 alt="waves"
+								 class="how__coloredBox-waves">
+
+						<h2 class="how__coloredBox-title"
+								data-aos="fade-up"
+								data-aos-delay="0"
+								data-aos-duration="700"
+								data-aos-offset="400">
+								HOW TO BUY<br>
+								<span class="coloredText">KoKo</span>
+						</h2>
+
+						<div class="container how__coloredBox-container">
+
+								<div class="how__coloredBox-container-imgWrapper">
+										<img src="components/how/img/koko.svg"
+												 alt="koko"
+												 class="how__coloredBox-container-imgWrapper-img">
+
+										<iframe class="how__coloredBox-container-imgWrapper-iframe"
+														src="https://app.uniswap.org/#/swap?outputCurrency=0x6982508145454ce325ddbe47a25d4ec3d2311933"
+														height="660px" width="100%" style="
+										    												border: 0;
+										    												margin: 0 auto;
+										    												display: block;
+										    												border-radius: 10px;
+										    												max-width: 540px;
+										  											">
+										</iframe>
+								</div>
+
+								<div class="how__coloredBox-container-list">
+
+										<!-- item -->
+										<div class="how__coloredBox-container-list-item"
+												 data-aos="fade-left"
+												 data-aos-delay="0"
+												 data-aos-duration="700"
+												 data-aos-offset="400">
+												<div class="how__coloredBox-container-list-item-title">
+														<img src="components/how/img/list/ico.svg"
+																 alt="icon"
+																 class="how__coloredBox-container-list-item-title-icon">
+														<div class="how__coloredBox-container-list-item-title-text">
+																01. Create a Wallet
+														</div>
+												</div>
+
+												<div class="how__coloredBox-container-list-item-text">
+														Download metamask or your wallet of choice from the app store or google play store for free.
+														Desktop users, download the google chrome extension by going to metamask.io.
+												</div>
+										</div>
+
+										<!-- item -->
+										<div class="how__coloredBox-container-list-item"
+												 data-aos="fade-left"
+												 data-aos-delay="100"
+												 data-aos-duration="700"
+												 data-aos-offset="400">
+												<div class="how__coloredBox-container-list-item-title">
+														<img src="components/how/img/list/ico-1.svg"
+																 alt="icon"
+																 class="how__coloredBox-container-list-item-title-icon">
+														<div class="how__coloredBox-container-list-item-title-text">
+																02. Get Some ETH
+														</div>
+												</div>
+
+												<div class="how__coloredBox-container-list-item-text">
+														have ETH in your wallet to switch to KoKo. If you don’t have any ETH, you can buy directly
+														on metamask, transfer from another wallet, or buy on another exchange and send it to your
+														wallet.
+												</div>
+										</div>
+
+										<!-- item -->
+										<div class="how__coloredBox-container-list-item"
+												 data-aos="fade-left"
+												 data-aos-delay="200"
+												 data-aos-duration="700"
+												 data-aos-offset="400">
+												<div class="how__coloredBox-container-list-item-title">
+														<img src="components/how/img/list/ico-2.svg"
+																 alt="icon"
+																 class="how__coloredBox-container-list-item-title-icon">
+														<div class="how__coloredBox-container-list-item-title-text">
+																03. Go to Uniswap
+														</div>
+												</div>
+
+												<div class="how__coloredBox-container-list-item-text">
+														connect to Uniswap. Go to app.uniswap.org in google chrome or on the browser inside your
+														Metamask app. Connect your wallet. Paste the KoKo token address into Uniswap, select KoKo,
+														and confirm.
+												</div>
+										</div>
+
+										<!-- item -->
+										<div class="how__coloredBox-container-list-item"
+												 data-aos="fade-left"
+												 data-aos-delay="300"
+												 data-aos-duration="700"
+												 data-aos-offset="400">
+												<div class="how__coloredBox-container-list-item-title">
+														<img src="components/how/img/list/ico-3.svg"
+																 alt="icon"
+																 class="how__coloredBox-container-list-item-title-icon">
+														<div class="how__coloredBox-container-list-item-title-text">
+																04. Switch ETH for $KOKO
+														</div>
+												</div>
+
+												<div class="how__coloredBox-container-list-item-text">
+														Exchange ETH (on the top line) for KoKo (on the bottom line). Our fees will be only 1%,
+														but this will eliminate the risk of your trade being scalped by a robot.
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+
+				<!-- waves -->
+				<img src="components/how/img/redWaves.svg"
+						 alt="redWaves"
+						 class="how__redWaves">
+
+				<!-- waves bottom -->
+				<img src="components/how/img/wavesBottom.svg"
+						 alt="waves"
+						 class="how__wavesBottom">
+		</section>
+
+		<!-- components/roadmap -->
+		<section id="roadmap" class="roadmap">
+				<div class="roadmap__outer">
+
+						<!-- coin -->
+						<img src="components/roadmap/img/coin.svg"
+								 alt="coin"
+								 class="roadmap__outer-coin">
+
+						<div class="container">
+								<div class="roadmap__inner">
+
+										<div class="roadmap__header">
+												<!-- ui/framedTitle -->
+												<h2 class="framedTitle roadmap__header-title"
+														data-aos="fade-up"
+														data-aos-delay="0"
+														data-aos-duration="700"
+														data-aos-offset="400">
+														Roadmap
+												</h2>
+
+												<div class="roadmap__header-text"
+														 data-aos="fade-up"
+														 data-aos-delay="100"
+														 data-aos-duration="700"
+														 data-aos-offset="400">
+														The beautiful singing of KoKo is only a small part of what awaits you ahead.
+														Look forward to it!
+												</div>
+										</div>
+
+										<div class="roadmap__phases">
+												<!-- item -->
+												<div class="roadmap__phases-item"
+														 data-aos="fade-right"
+														 data-aos-delay="0"
+														 data-aos-duration="700"
+														 data-aos-offset="400">
+
+														<div class="roadmap__phases-item-header">
+																<img src="components/roadmap/img/phases/1.svg"
+																		 alt="phase"
+																		 class="roadmap__phases-item-header-img">
+														</div>
+
+														<div class="roadmap__phases-item-body">
+																<ul class="roadmap__phases-item-body-ul">
+																		<li>Launch, DEX Listing</li>
+																		<li>CoinGecko/Coinmarketcap Listings</li>
+																		<li>1,500+ Holders</li>
+																		<li>Give the popular toy and popular song a new popular meme future!</li>
+																</ul>
+														</div>
+
+														<div class="roadmap__phases-item-footer">
+																3Q 2023
+														</div>
+												</div>
+
+												<!-- item -->
+												<div class="roadmap__phases-item"
+														 data-aos="fade-right"
+														 data-aos-delay="200"
+														 data-aos-duration="700"
+														 data-aos-offset="400">
+
+														<div class="roadmap__phases-item-header">
+																<img src="components/roadmap/img/phases/2.svg"
+																		 alt="phase"
+																		 class="roadmap__phases-item-header-img">
+														</div>
+
+														<div class="roadmap__phases-item-body">
+																<ul class="roadmap__phases-item-body-ul">
+																		<li>Loud information "boom", partnership with popular sites.</li>
+																		<li>Create your own multi-chain KoKo Wallet. Integrating KoKo into other networks
+																		</li>
+																		<li>CEX Listings 15,000+holders</li>
+																</ul>
+														</div>
+
+														<div class="roadmap__phases-item-footer">
+																4Q 2023
+														</div>
+												</div>
+
+												<!-- item -->
+												<div class="roadmap__phases-item"
+														 data-aos="fade-right"
+														 data-aos-delay="400"
+														 data-aos-duration="700"
+														 data-aos-offset="400">
+
+														<div class="roadmap__phases-item-header">
+																<img src="components/roadmap/img/phases/3.svg"
+																		 alt="phase"
+																		 class="roadmap__phases-item-header-img">
+														</div>
+
+														<div class="roadmap__phases-item-body">
+																<ul class="roadmap__phases-item-body-ul">
+																		<li>"Shh.." this surprise KoKo will tell in the future.</li>
+																		
+																</ul>
+														</div>
+
+														<div class="roadmap__phases-item-footer">
+																2Q 2024
+														</div>
+												</div>
+										</div>
+
+										<!-- ui/button -->
+										<a href="#" class="button button--Red roadmap__button">
+												<img src="ui/button/img/arrow-right.svg"
+														 alt="arrow-right"
+														 class="button__icon">
+												<span class="button__text">
+													BUY KoKo TOKEN NOW
+												</span>
+										</a>
+
+								</div>
+						</div>
+				</div>
+		</section>
+
+</main>
+
+<footer class="footer">
+
+		<!-- waves -->
+		<img src="components/footer/img/redWaves.svg"
+				 alt="redWaves"
+				 class="footer__redWaves">
+
+		<div class="container footer__container">
+				<div class="footer__inner">
+
+						<img src="components/header/img/logo.svg"
+								 alt="logo"
+								 class="footer__inner-logo">
+
+						<div class="footer__inner-text">
+								<p>
+										The KoKo meme was created thanks to the world-famous toy screaming chicken
+										and the popular dance song "Chicken Song"
+								</p>
+
+								<p>
+										The KoKo coin was created to show people that meme-coins can turn from a fun joke into something more.
+								</p>
+						</div>
+
+						<div class="footer__inner-social intro__coloredBox-content-social">
+
+								<a Target = "_blank" href="https://twitter.com/KoKo_Token" class="intro__coloredBox-content-social-link">
+										<img src="components/intro/img/social/1.svg"
+												 alt="twitter"
+												 class="intro__coloredBox-content-social-link-img">
+								</a>
+
+								<a href="#" class="intro__coloredBox-content-social-link">
+										<img src="components/intro/img/social/2.svg"
+												 alt="discord"
+												 class="intro__coloredBox-content-social-link-img">
+								</a>
+
+								<a Target = "_blank" href="https://t.me/koko_token" class="intro__coloredBox-content-social-link">
+										<img src="components/intro/img/social/3.svg"
+												 alt="telegram"
+												 class="intro__coloredBox-content-social-link-img">
+								</a>
+
+								<a Target = "_blank" href="https://etherscan.io/token/0x7D7e07FA445c70B73e8025aFD15D87C4F2EA44E2" class="intro__coloredBox-content-social-link">
+										<img src="components/intro/img/social/4.svg"
+												 alt="etherscan"
+												 class="intro__coloredBox-content-social-link-img">
+								</a>
+
+								<a Target = "_blank" href="https://www.dextools.io/app/en/ether/pair-explorer/0xe5c1f25e3eca8b4174b65a0e36b39e519d3f2aef" class="intro__coloredBox-content-social-link">
+										<img src="components/intro/img/social/5.svg"
+												 alt="dextools"
+												 class="intro__coloredBox-content-social-link-img">
+								</a>
+
+								<a href="#" class="intro__coloredBox-content-social-link">
+										<img src="components/intro/img/social/6.svg"
+												 alt="coinmarketcup"
+												 class="intro__coloredBox-content-social-link-img">
+								</a>
+
+						</div>
+
+				</div>
+
+				<!-- coin -->
+				<img src="components/footer/img/coin.svg"
+						 alt="coin"
+						 class="footer__container-coin">
+
+				<!-- koko -->
+				<img src="components/footer/img/koko.svg"
+						 alt="koko"
+						 class="footer__container-koko">
+		</div>
+</footer>
+
+<div class="copyright">
+		© 2023 by KoKo. All rights reserved!
+</div>
+
+<!-- AOS CDN -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Global script -->
+<script src="assets/js/index.js"></script>
+
+<!-- Component scripts -->
+<script src="components/header/header.js"></script>
+<script src="components/footer/footer.js"></script>
+<script src="components/intro/intro.js"></script>
+
+
+</body>
+</html>

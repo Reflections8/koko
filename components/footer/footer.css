@@ -1,0 +1,124 @@
+.footer {
+  background-color: #623223;
+  color: white;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  position: relative;
+  background-image: url("img/waves.svg");
+  background-repeat: no-repeat;
+  background-position: -19% 90%;
+}
+
+.footer__redWaves {
+  position: absolute;
+  pointer-events: none;
+  right: -8%;
+  top: -32%;
+  z-index: -1;
+}
+
+.footer__container {
+  position: relative;
+}
+
+.footer__container-coin {
+  position: absolute;
+  pointer-events: none;
+  left: -15%;
+  top: -85%;
+}
+
+.footer__container-koko {
+  position: absolute;
+  pointer-events: none;
+  bottom: -60px;
+  right: -35%;
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__inner-logo {
+  max-width: 240px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.footer__inner-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+  max-width: 950px;
+  margin: 0 auto 50px auto;
+}
+
+.footer__inner-text p {
+  margin: 0;
+}
+
+.footer__inner-social {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1360px) {
+  .footer__container-koko {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__inner {
+    font-size: 14px;
+    padding: 0 40px;
+  }
+
+  .footer__container-coin {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-image: none;
+  }
+
+  .footer__redWaves {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__redWaves {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  .footer__inner {
+    padding: 0;
+  }
+
+  .intro__coloredBox-content-social {
+    justify-content: center;
+  }
+}
